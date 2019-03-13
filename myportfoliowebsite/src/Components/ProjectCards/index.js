@@ -19,21 +19,21 @@ const styles = {
         textAlign: 'center', 
         marginLeft: 80,
         marginRight: 80,
-        marginTop: 250,
+        marginTop: 225,
         marginBottom: 300,  
     },
     middle: {
         textAlign: 'center',  
         marginLeft: 60,
         marginRight: 60,
-        marginTop: 250,
+        marginTop: 225,
         marginBottom: 300,  
     },
     right: {
         textAlign: 'center',
         marginLeft: 80,
         marginRight: 80,
-        marginTop: 250,
+        marginTop: 225,
         marginBottom: 300,   
    
     
