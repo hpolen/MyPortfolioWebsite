@@ -38,7 +38,7 @@ function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" align="center">
+        <Button size="small" color="primary" >
           Share
         </Button>
         <Button size="small" color="primary">
