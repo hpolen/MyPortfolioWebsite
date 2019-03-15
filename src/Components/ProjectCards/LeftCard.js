@@ -23,12 +23,12 @@ function MediaCard(props) {
   return (
     <Card className={classes.card}>
       <CardActionArea>
+        <CardContent>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={require('./images/Linkedin.jpeg')}
+          title="Linkedin"
         />
-        <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Linkedin
           </Typography>
