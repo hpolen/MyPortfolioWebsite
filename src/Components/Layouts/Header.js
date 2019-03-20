@@ -7,6 +7,7 @@ import { AppBar, Toolbar, Typography, Button } from '@material-ui/core'
 const styles = {
     root: {
         flexGrow: 1,
+        backgroundColor: '#202020',
       },
       grow: {
         flexGrow: 1,

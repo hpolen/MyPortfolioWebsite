@@ -1,18 +1,33 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
-
+import PropTypes from 'prop-types';
 import { Grid, Paper } from '@material-ui/core'
 
-const styles = theme => ({
+const styles = {
     root: {
+        flexGrow: 1,
         width: '100%',
-    }
-})
-export default props =>
+        height: '25%,'
+ },
+}
+function footer(props) {
+    const { classes } = props;
+    return (
+
     <div>
         <Grid container spacing={12}>
             <Grid item xs>
-                <Paper>information</Paper>
+                <Paper className={classes.root} > information</Paper>
             </Grid>
         </Grid>
     </div>
+
+);
+}
+
+footer.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+
+    export default withStyles(styles)(footer) 

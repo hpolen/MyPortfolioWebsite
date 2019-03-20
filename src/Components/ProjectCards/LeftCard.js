@@ -12,6 +12,8 @@ import Typography from '@material-ui/core/Typography';
 const styles = {
   card: {
     maxWidth: 345,
+    backgroundColor: '#202020',
+
   },
   media: {
     height: 140,
@@ -26,8 +28,8 @@ function MediaCard(props) {
         <CardContent>
         <CardMedia
           className={classes.media}
-          image={require('./images/Linkedin.jpeg')}
-          title="Linkedin"
+          image={require('./images/SmallReactLogo.png')}
+          title="ReactLogo"
         />
           <Typography gutterBottom variant="h5" component="h2">
             Linkedin
