@@ -1,7 +1,7 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import PropTypes from 'prop-types';
-import { Grid, Paper } from '@material-ui/core'
+import { Grid, AppBar } from '@material-ui/core'
 
 const styles = {
     root: {
@@ -17,7 +17,10 @@ function footer(props) {
     <div>
         <Grid container spacing={12}>
             <Grid item xs>
-                <Paper className={classes.root} > information</Paper>
+                <AppBar>
+
+                </AppBar>
+                
             </Grid>
         </Grid>
     </div>

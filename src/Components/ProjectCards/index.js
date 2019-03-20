@@ -24,11 +24,10 @@ const styles = {
     },
     middle: {
         textAlign: 'center',  
-        marginLeft: 60,
-        marginRight: 60,
+        marginLeft: 80,
+        marginRight: 80,
         marginTop: 225,
         marginBottom: 300,
-        width: '100%',  
     },
     right: {
         textAlign: 'center',
